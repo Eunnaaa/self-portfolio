@@ -24,7 +24,7 @@ const PROJECTS: Project[] = [
   },
   {
     id: 3,
-    title: "Dessert Page Chocokaya",
+    title: "UMKM Dessert Page",
     description: "Bisnis UMKM Dessert dingin Chocokaya",
     tags: ["React", "TypeScript"],
     image: p5,
@@ -44,6 +44,9 @@ const PROJECTS: Project[] = [
 
 export const ProjectGrid = () => (
   <section id="work" className="py-20 px-6 max-w-7xl mx-auto scroll-mt-20">
+    <p className="text-xs font-medium tracking-[0.3em] uppercase text-gray-400 mb-3">
+            Experience
+          </p>
     <div className="flex justify-between items-end mb-16">
       <h2 className="text-4xl font-bold tracking-tight">Selected Works</h2>
       <p className="text-gray-400 text-sm italic">2022 — Now</p>

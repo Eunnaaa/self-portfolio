@@ -3,6 +3,8 @@ import { Hero } from './sections/Hero';
 import { ProjectGrid } from './sections/ProjectGrid';
 import { Contact } from './sections/Contact';
 import './index.css';
+import { Skills } from './sections/SkillPage';
+import { Education } from './sections/Education';
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       <main>
         <Hero />
         <ProjectGrid />
+        <Skills />
+        <Education />
         <Contact />
       </main>
     </div>
